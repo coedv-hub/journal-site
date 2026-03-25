@@ -65,8 +65,8 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               {/* Text Content */}
               <div>
-                <h1 className="text-5xl md:text-6xl font-bold text-primary mb-4">
-                  {content.heroTitle}
+                <h1 className="text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-primary">
+                Digital Intelligence Frontiers
                 </h1>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                   {content.heroSubtitle}
