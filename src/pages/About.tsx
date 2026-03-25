@@ -18,7 +18,7 @@ const aboutContent = {
     submitEmail: 'Submit manuscripts via email: yyyfeiwang@gmail.com',
     reviewTime: 'Review timeline: typically 2–6 weeks.',
     contactTitle: 'Contact Information',
-    contactEmail: 'yyyfeiwang@gmail.com, megantcy43@gmail.com‘
+    contactEmail: 'yyyfeiwang@gmail.com / megantcy43@gmail.com‘
   },
   zh: {
     pageTitle: '期刊简介',
@@ -35,7 +35,7 @@ const aboutContent = {
     submitEmail: '投稿邮箱：yyyfeiwang@gmail.com',
     reviewTime: '审稿周期：通常 2–6 周。',
     contactTitle: '联系方式',
-    contactEmail: 'yyyfeiwang@gmail.com, megantcy43@gmail.com’
+    contactEmail: 'yyyfeiwang@gmail.com / megantcy43@gmail.com’
   },
 };
 
