@@ -37,7 +37,7 @@ export default function Header({ currentLang, onLangChange, currentPage }: Heade
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/">
-            <a className="flex items-center gap-2 no-underline hover:opacity-80 transition-opacity">
+            <a className="flex items-center gap-2 no-underline hover:opacity-80 transition-opacity !no-underline">
               <div className="text-lg font-bold tracking-wide">DIF</div>
               <div className="hidden sm:block text-sm font-semibold">
                 {currentLang === 'en' ? 'Digital Intelligence Frontiers' : '数字智能前沿'}
