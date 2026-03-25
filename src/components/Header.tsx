@@ -10,18 +10,18 @@ interface HeaderProps {
 
 const navItems = {
   en: [
-    { label: 'Current', href: '/' },
+    { label: 'Current Issue', href: '/' },
     { label: 'Archives', href: '/archives' },
     { label: 'About the Journal', href: '/about' },
-    { label: 'Editorial Team', href: '/editorial' },
-    { label: 'Instructions to Authors', href: '/instructions' },
-    { label: 'Contact', href: '/contact' },
+    { label: 'Editorial Board', href: '/editorial' },
+    { label: 'Authors Guidelines', href: '/instructions' },
+    { label: 'Contact us', href: '/contact' },
   ],
   zh: [
-    { label: '当前', href: '/' },
-    { label: '过刊', href: '/archives' },
+    { label: '本期目录', href: '/' },
+    { label: '过刊浏览', href: '/archives' },
     { label: '期刊简介', href: '/about' },
-    { label: '编辑团队', href: '/editorial' },
+    { label: '编委会', href: '/editorial' },
     { label: '投稿指南', href: '/instructions' },
     { label: '联系我们', href: '/contact' },
   ],
@@ -38,8 +38,8 @@ export default function Header({ currentLang, onLangChange, currentPage }: Heade
           {/* Logo */}
           <Link href="/">
             <a className="flex items-center gap-2 no-underline hover:opacity-80 transition-opacity">
-              <div className="text-xl font-bold">DIF</div>
-              <div className="hidden sm:block text-sm font-medium">
+              <div className="text-lg font-bold tracking-wide">DIF</div>
+              <div className="hidden sm:block text-sm font-semibold">
                 {currentLang === 'en' ? 'Digital Intelligence Frontiers' : '数字智能前沿'}
               </div>
             </a>
