@@ -19,7 +19,6 @@ const aboutContent = {
     reviewTime: 'Review timeline: typically 2–6 weeks.',
     contactTitle: 'Contact Information',
     contactEmail: 'yyyfeiwang@gmail.com‘,
-    contactEmail2: 'megantcy43@gmail.com‘,
   },
   zh: {
     pageTitle: '期刊简介',
