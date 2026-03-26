@@ -15,10 +15,10 @@ const aboutContent = {
     license: 'License: CC BY',
     language: 'Language: Chinese (primary); English submissions are welcome',
     submissionTitle: 'Submission Guidelines',
-    submitEmail: 'Submit manuscripts via email: yyyfeiwang@gmail.com',
+    submitEmail: 'Submit manuscripts via email: yyyfeiwang@gmail.com; megantcy43@gmail.com',
     reviewTime: 'Review timeline: typically 2–6 weeks.',
     contactTitle: 'Contact Information',
-    contactEmail: 'yyyfeiwang@gmail.com‘,
+    contactEmail: 'yyyfeiwang@gmail.com; megantcy43@gmail.com',
   },
   zh: {
     pageTitle: '期刊简介',
@@ -32,10 +32,10 @@ const aboutContent = {
     license: '许可协议：CC BY',
     language: '语言：中文为主，欢迎英文来稿',
     submissionTitle: '投稿指南',
-    submitEmail: '投稿邮箱：yyyfeiwang@gmail.com',
+    submitEmail: '投稿邮箱：yyyfeiwang@gmail.com；megantcy43@gmail.com',
     reviewTime: '审稿周期：通常 2–6 周。',
     contactTitle: '联系方式',
-    contactEmail: 'yyyfeiwang@gmail.com / megantcy43@gmail.com’
+    contactEmail: 'yyyfeiwang@gmail.com；megantcy43@gmail.com',
   },
 };
 
@@ -107,42 +107,54 @@ export default function About() {
 
               {/* Sidebar */}
               <aside className="space-y-6">
-                {/* Contact Card */}
-                <div className="bg-primary text-primary-foreground rounded border border-border p-6">
-                  <h3 className="text-xl font-bold mb-4">{content.contactTitle}</h3>
-                  <a
-                    href={`mailto:${content.contactEmail}`}
-                    className="text-primary-foreground/90 hover:text-primary-foreground text-lg font-medium no-underline"
-                  >
-                    {content.contactEmail}
-                  </a>
-                </div>
+             {/* Contact Card */}
+              <div className="bg-primary text-primary-foreground rounded border border-border p-6">
+                <h3 className="text-xl font-bold mb-4">{content.contactTitle}</h3>
+                <div className="space-y-2 text-lg font-medium">
+                <a
+                  href="mailto:yyyfeiwang@gmail.com"
+                  className="block text-primary-foreground/90 hover:text-primary-foreground no-underline"
+                >
+                  yyyfeiwang@gmail.com
+                </a>
+                <a
+                  href="mailto:megantcy43@gmail.com"
+                  className="block text-primary-foreground/90 hover:text-primary-foreground no-underline"
+                >
+                  megantcy43@gmail.com
+                </a>
+              </div>
+            </div>
 
-                {/* Quick Stats */}
+                {/* Quick Info */}
                 <div className="bg-white rounded border border-border p-6 space-y-4">
                   <div>
-                    <p className="text-sm text-muted-foreground mb-1">
-                      {currentLang === 'en' ? 'Publication Status' : '发布状态'}
-                    </p>
-                    <p className="text-lg font-bold text-primary">
-                      {currentLang === 'en' ? 'Coming Soon' : '即将推出'}
+                    <p className="text-xl font-bold text-primary mb-4">
+                      {currentLang === 'en' ? 'Quick Info' : '快速信息'}
                     </p>
                   </div>
-                  <div className="border-t border-border pt-4">
-                    <p className="text-sm text-muted-foreground mb-1">
-                      {currentLang === 'en' ? 'First Issue' : '首期'}
-                    </p>
-                    <p className="text-lg font-bold text-primary">April 2026</p>
-                  </div>
-                  <div className="border-t border-border pt-4">
-                    <p className="text-sm text-muted-foreground mb-1">
-                      {currentLang === 'en' ? 'Access Model' : '访问模式'}
-                    </p>
-                    <p className="text-lg font-bold text-accent">
-                      {currentLang === 'en' ? 'Open Access' : '开放获取'}
-                    </p>
-                  </div>
+
+                <div>
+                  <p className="text-sm text-muted-foreground mb-1">ISSN</p>
+                  <p className="text-lg font-bold text-primary">3135-0011</p>
                 </div>
+
+                <div className="border-t border-border pt-4">
+                  <p className="text-sm text-muted-foreground mb-1">
+                    {currentLang === 'en' ? 'Open Access' : '开放获取'}
+                  </p>
+                  <p className="text-lg font-bold text-accent">
+                    {currentLang === 'en' ? 'All articles are freely available' : '所有文章均可免费获取'}
+                  </p>
+                </div>
+
+                <div className="border-t border-border pt-4">
+                  <p className="text-sm text-muted-foreground mb-1">
+                    {currentLang === 'en' ? 'License' : '许可协议'}
+                  </p>
+                  <p className="text-lg font-bold text-primary">CC BY 4.0</p>
+                </div>
+              </div>
               </aside>
             </div>
           </div>
