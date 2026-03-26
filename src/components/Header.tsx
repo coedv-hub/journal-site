@@ -52,7 +52,7 @@ export default function Header({ currentLang, onLangChange, currentPage }: Heade
                 <a
                   className={`px-3 py-2 text-sm font-medium rounded transition-colors no-underline ${
                     currentPage === item.href
-                      ? 'bg-primary-foreground/20 text-primary-foreground'
+                      ? 'text-primary-foreground font-semibold'
                       : 'text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10'
                   }`}
                 >
