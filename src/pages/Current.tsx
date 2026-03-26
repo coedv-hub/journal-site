@@ -9,7 +9,7 @@ const currentContent = {
     pageTitle: 'Current Issue',
     volume: 'Volume 1, Issue 1',
     publishDate: 'April 1, 2026',
-    issn: 'ISSN: xxxx-xxxx (Print) | eISSN: xxxx-xxxx (Online)',
+    issn: 'ISSN: 3135-0011',
     toc: 'Table of Contents',
     articles: [
       {
@@ -36,7 +36,7 @@ const currentContent = {
     pageTitle: '最新期刊',
     volume: '第 1 卷，第 1 期',
     publishDate: '2026 年 4 月 1 日',
-    issn: 'ISSN: xxxx-xxxx (印刷版) | eISSN: xxxx-xxxx (在线版)',
+    issn: 'ISSN：3135-0011',
     toc: '目录',
     articles: [
       {
