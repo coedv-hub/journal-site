@@ -22,7 +22,7 @@ const homeContent = {
     license: 'License: CC BY',
     language: 'Language: Chinese (primary); English submissions are welcome',
     submission: 'Submission',
-    submitDesc: 'Submit manuscripts via email: yyyfeiwang@gmail.com',
+    submitDesc: 'Submit manuscripts via email: yyyfeiwang@gmail.com; megantcy43@gmail.com',
     reviewTime: 'Review timeline: typically 2–6 weeks.',
     exploreMore: 'Explore More',
   },
@@ -44,7 +44,7 @@ const homeContent = {
     license: '许可协议：CC BY',
     language: '语言：中文为主，欢迎英文来稿',
     submission: '投稿方式',
-    submitDesc: '投稿邮箱：yyyfeiwang@gmail.com',
+    submitDesc: '投稿邮箱：yyyfeiwang@gmail.com；megantcy43@gmail.com',
     reviewTime: '审稿周期：通常 2–6 周。',
     exploreMore: '了解更多',
   },
@@ -208,10 +208,7 @@ export default function Home() {
                       {currentLang === 'en' ? 'ISSN' : 'ISSN'}
                     </p>
                     <p className="text-muted-foreground">
-                      {currentLang === 'en' ? 'Print: xxxx-xxxx' : '印刷版：xxxx-xxxx'}
-                    </p>
-                    <p className="text-muted-foreground">
-                      {currentLang === 'en' ? 'Online: xxxx-xxxx' : '在线版：xxxx-xxxx'}
+                      {currentLang === 'en' ? 'ISSN: 3135-0011' : 'ISSN：3135-0011'}
                     </p>
                   </div>
                   <div className="border-t border-border pt-4">
