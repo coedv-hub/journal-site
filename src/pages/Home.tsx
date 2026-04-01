@@ -120,13 +120,14 @@ export default function Home() {
                   {currentLang === 'en' ? 'Featured Articles' : '精选文章'}
                 </h3>
                 <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <span className="text-accent font-bold mt-1">•</span>
-                    <span className="text-muted-foreground">
-                      {currentLang === 'en'
-                        ? 'Interdisciplinary perspectives on AI governance'
-                        : 'AI治理的跨学科视角'}
-                    </span>
+                <li className="flex items-start gap-3">
+                  <span className="text-accent font-bold mt-1">•</span>
+                  <a
+                    href="/article/001/"
+                    className="text-muted-foreground hover:text-primary no-underline"
+                  >
+                    AI-Enabled Cultural Tourism in Sichuan: The Bashu Cultural Narrative Chain and Intelligent Resource Matching
+                  </a>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-accent font-bold mt-1">•</span>
