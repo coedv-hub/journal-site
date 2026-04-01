@@ -123,7 +123,7 @@ export default function Home() {
                 <li className="flex items-start gap-3">
                   <span className="text-accent font-bold mt-1">•</span>
                   <a
-                    href="/article/001/"
+                    href="/dif/article/2026-v1-i1-001/"
                     className="text-muted-foreground hover:text-primary no-underline"
                   >
                     AI-Enabled Cultural Tourism in Sichuan: The Bashu Cultural Narrative Chain and Intelligent Resource Matching
