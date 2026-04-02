@@ -135,9 +135,7 @@ export default function Home() {
                     href="/dif/article/2026-v1-i1-002/"
                     className="text-muted-foreground hover:text-primary no-underline"
                     >
-                      {currentLang === 'en'
-                        ? 'Research on the Construction of a Data-Driven Evaluation System for General Artificial Intelligence Courses in Higher Vocational Education'
-                        : '基于数据驱动的高职人工智能通识课程评价体系构建研究'}
+                     测试文章002
                     </a>
                   </li>
                   <li className="flex items-start gap-3">
