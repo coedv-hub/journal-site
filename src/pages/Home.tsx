@@ -131,11 +131,14 @@ export default function Home() {
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-accent font-bold mt-1">•</span>
-                    <span className="text-muted-foreground">
+                    <a
+                    href="/dif/article/2026-v1-i1-002/"
+                    className="text-muted-foreground hover:text-primary no-underline"
+                    >
                       {currentLang === 'en'
-                        ? 'Data governance and platform accountability'
-                        : '数据治理与平台问责'}
-                    </span>
+                        ? 'Research on the Construction of a Data-Driven Evaluation System for General Artificial Intelligence Courses in Higher Vocational Education'
+                        : '基于数据驱动的高职人工智能通识课程评价体系构建研究'}
+                    </a>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-accent font-bold mt-1">•</span>
