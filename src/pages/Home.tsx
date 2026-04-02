@@ -135,7 +135,7 @@ export default function Home() {
                     href="/dif/article/2026-v1-i1-002/"
                     className="text-muted-foreground hover:text-primary no-underline"
                     >
-                     AI
+                     测试
                     </a>
                   </li>
                   <li className="flex items-start gap-3">
