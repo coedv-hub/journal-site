@@ -83,15 +83,15 @@ export default function Home() {
                     <ChevronRight size={18} />
                   </a>
 
-                <a
-                  href="/about"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded hover:bg-primary/90 transition-colors no-underline font-medium"
-                >
-                  {content.exploreMore}
-                  <ChevronRight size={18} />
-                </a>
-              </div>
-          </div>
+                  <a
+                    href="/about"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded hover:bg-primary/90 transition-colors no-underline font-medium"
+                  >
+                    {content.exploreMore}
+                    <ChevronRight size={18} />
+                  </a>
+                </div>
+            </div>
 
               {/* Cover Image */}
               <div className="flex justify-center">
