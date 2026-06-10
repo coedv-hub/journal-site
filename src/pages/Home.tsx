@@ -11,6 +11,7 @@ const homeContent = {
     volume: 'Volume 1, Issue 1',
     publishDate: 'April 1, 2026',
     viewIssue: 'View Issue',
+    downloadTemplate: 'Download Template',
     aboutTitle: 'About the Journal',
     aboutDesc: 'Digital Intelligence Frontiers is a peer-reviewed, fully open-access journal based in Hong Kong. It publishes interdisciplinary research on digital intelligence and its impact on technology, governance, and society.',
     scope: 'Research Scope',
@@ -33,6 +34,7 @@ const homeContent = {
     volume: '第 1 卷，第 1 期',
     publishDate: '2026 年 4 月 1 日',
     viewIssue: '查看期刊',
+    downloadTemplate: '下载投稿模板',
     aboutTitle: '期刊简介',
     aboutDesc: '《数字智能前沿》为立足香港的同行评审、完全开放获取学术期刊，聚焦数字智能及其在技术、治理与社会领域的跨学科影响研究。',
     scope: '研究范围',
@@ -71,16 +73,25 @@ export default function Home() {
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                   {content.heroSubtitle}
                 </p>
-                <div className="flex flex-wrap gap-4">
+               <div className="flex flex-wrap gap-4">
                   <a
-                    href="/about"
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded hover:bg-primary/90 transition-colors no-underline font-medium"
+                    href="/templates/dif-manuscript-template.docx"
+                    download
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground rounded hover:bg-accent/90 transition-colors no-underline font-medium"
                   >
-                    {content.exploreMore}
+                    {content.downloadTemplate}
                     <ChevronRight size={18} />
                   </a>
-                </div>
+
+                <a
+                  href="/about"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded hover:bg-primary/90 transition-colors no-underline font-medium"
+                >
+                  {content.exploreMore}
+                  <ChevronRight size={18} />
+                </a>
               </div>
+          </div>
 
               {/* Cover Image */}
               <div className="flex justify-center">
