@@ -50,18 +50,7 @@ function Router() {
           />
         )}
       />
-      <Route
-        path={"/contact"}
-        component={() => (
-          <PlaceholderPage
-            title="Contact"
-            titleZh="联系我们"
-            description="Get in touch with the Digital Intelligence Frontiers team."
-            descriptionZh="与《数字智能前沿》团队联系。"
-            currentPage="/contact"
-          />
-        )}
-      />
+     <Route path={"/contact"} component={Contact} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
