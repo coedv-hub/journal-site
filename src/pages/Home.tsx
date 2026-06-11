@@ -123,7 +123,7 @@ export default function Home() {
                   <ChevronRight size={16} />
                 </a>
               </Link>
-              </div>
+            </div>
 
               {/* Featured Articles */}
               <div className="md:col-span-2 bg-white border border-border rounded p-6">
