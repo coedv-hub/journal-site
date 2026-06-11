@@ -131,6 +131,7 @@ export default function Home() {
                   {currentLang === 'en' ? 'Featured Articles' : '精选文章'}
                 </h3>
                 <ul className="space-y-3">
+                  
                 <li className="flex items-start gap-3">
                   <span className="text-accent font-bold mt-1">•</span>
                   <a
@@ -139,6 +140,7 @@ export default function Home() {
                   >
                     AI-Enabled Cultural Tourism in Sichuan: The Bashu Cultural Narrative Chain and Intelligent Resource Matching
                   </a>
+                  
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-accent font-bold mt-1">•</span>
@@ -149,13 +151,45 @@ export default function Home() {
                      Research on the Construction of a Data-Driven Evaluation System for General Artificial Intelligence Courses in Higher Vocational Education
                     </a>
                   </li>
+
                   <li className="flex items-start gap-3">
                     <span className="text-accent font-bold mt-1">•</span>
-                    <span className="text-muted-foreground">
-                      {currentLang === 'en'
-                        ? 'Algorithmic ethics in digital society'
-                        : '数字社会中的算法伦理'}
-                    </span>
+                    <a
+                    href="/dif/article/2026-v1-i1-003/"
+                    className="text-muted-foreground hover:text-primary no-underline"
+                    >
+                    The Value and Practical Approaches of Artificial Intelligence in Enhancing English Teaching
+                    </a>
+                  </li>
+
+                  <li className="flex items-start gap-3">
+                    <span className="text-accent font-bold mt-1">•</span>
+                    <a
+                    href="/dif/article/2026-v1-i1-004/"
+                    className="text-muted-foreground hover:text-primary no-underline"
+                    >
+                    Application and Practical Exploration of Artificial Intelligence in College Mathematics Teaching
+                    </a>
+                  </li>
+
+                  <li className="flex items-start gap-3">
+                    <span className="text-accent font-bold mt-1">•</span>
+                    <a
+                    href="/dif/article/2026-v1-i1-005/"
+                    className="text-muted-foreground hover:text-primary no-underline"
+                    >
+                    From Quantitative Indexes&apos; Stability to that of Stylometry: A Homogeneous Texts Approach to EFL Academic Writing
+                    </a>
+                  </li>
+
+                  <li className="flex items-start gap-3">
+                    <span className="text-accent font-bold mt-1">•</span>
+                    <a
+                    href="/dif/article/2026-v1-i1-006/"
+                    className="text-muted-foreground hover:text-primary no-underline"
+                    >
+                    Review and Reconstruction of Autonomous Vehicle Governance Frameworks from a Comparative Law Perspective
+                    </a>
                   </li>
                 </ul>
               </div>
