@@ -117,7 +117,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold text-primary mb-2">{content.volume}</h3>
                 <p className="text-muted-foreground mb-4">{content.publishDate}</p>
                 <a
-                  href="/current"
+                  href="/archives"
                   className="inline-flex items-center gap-2 text-accent font-medium hover:text-accent/80 no-underline"
                 >
                   {content.viewIssue}
