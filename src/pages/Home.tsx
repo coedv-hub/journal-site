@@ -97,8 +97,8 @@ export default function Home() {
               {/* Cover Image */}
               <div className="flex justify-center">
                 <img
-                  src="/images/cover-vol1-issue1.jpg"
-                  alt="Volume 1, Issue 1 Cover"
+                  src="/images/cover-vol1-issue2.jpg"
+                  alt="Volume 1, Issue 2 Cover"
                   className="w-full max-w-sm rounded shadow-lg"
                 />
               </div>
